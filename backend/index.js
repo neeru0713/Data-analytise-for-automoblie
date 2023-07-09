@@ -7,7 +7,8 @@ const app = express();
 const cookieParser = require('cookie-parser');
 const port = 8080;
 
-const dbUrl = 'mongodb://localhost:27017/autodata';
+const dbUrl = 'mongodb+srv://neerurani1307:%40Neeru1307@neerucluster.z4krrc9.mongodb.net/cardata?retryWrites=true&w=majority';
+
 
 app.use(cors());
 app.use(express.json());
