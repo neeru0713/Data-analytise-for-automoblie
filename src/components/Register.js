@@ -15,7 +15,7 @@ const Register = ({ user, updateUser }) => {
     // Perform registration logic with email and password
     // You can make an API call or handle the registration logic here
     console.log("handlesubmit called in register page");
-    fetch("http://127.0.0.1:8080/api/v1/auth/register", {
+    fetch("https://data-analysis-cars.onrender.com/api/v1/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

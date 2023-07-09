@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import Table from './Table'
 import Filters from './Filters'
 import NavBar from './NavBar'
-const host = "http://localhost:8080"
+const host = "https://data-analysis-cars.onrender.com"
 
 const ExploreCars = () => {
     const [carData, setCarData] = useState([]);

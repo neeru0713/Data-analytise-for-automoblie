@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const host = "http://localhost:8080"
+const host = "https://data-analysis-cars.onrender.com"
 const Filters = ({updateCars}) => {
   const [options, setOptions] = useState([]);
   const [selectedColumn, setSelectedColumn] = useState('');

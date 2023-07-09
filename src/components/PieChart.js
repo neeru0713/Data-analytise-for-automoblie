@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Chart } from 'react-google-charts';
 import NavBar from './NavBar';
-const host = "http://localhost:8080"
+const host = "https://data-analysis-cars.onrender.com"
 
 
 const PieChart = () => {
